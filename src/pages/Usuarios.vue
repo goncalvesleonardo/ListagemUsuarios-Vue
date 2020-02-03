@@ -72,8 +72,8 @@ export default {
 </script>
 
 <style scoped lang="sass">
-#app 
-  font-family: 'Avenir', Helvetica, Arial, sans-serif
+#app
+  font-family: 'Roboto', sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale,
   .dropdown
@@ -85,10 +85,15 @@ export default {
     justify-content: center
     width: 80%
     margin-left: 10%
+  h3
+    font-size: 19px
+    font-weight: 500
   select
     width: 100px
-    height: 25px
+    height: 30px
+    color: #fff
+    border-radius: 5px
     overflow: hidden
-    background: #eee
+    background: #696969
     border: 1px solid #ccc
 </style>

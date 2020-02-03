@@ -26,14 +26,23 @@ export default {
 
 <style scoped lang="sass">
 .card
+  font-family: 'Roboto', sans-serif
   float: left
-  min-width: 30%
   min-height: 30%
   margin: 10px 10px
-  border-radius: 15px
-  background: #eee
-  color: #000
+  border-radius: 5px
+  background: #696969
+  color: #fff
   text-align: left
+  line-height: 20px
+  padding: 10px
+  font-size: 15px
+  width: calc(33.3333% - 40px)
+  box-shadow: 0 1px 8px rgba(0,0,0,0.2), 0 3px 4px rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12)
+  @media screen and (max-width: 700px)
+    width: 100%
+    margin-left: 0
+    margin-right: 0
   p
     margin: 4px
 </style>
